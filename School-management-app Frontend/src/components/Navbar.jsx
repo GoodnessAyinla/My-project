@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary h-100px">
-        <div className="container-fluid">
-          <a className="navbar-brand text-success fw-" href="#">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary h-100px sticky-top ">
+        <div className="container-fluid m-3">
+          <a className="navbar-brand text-success fw-bold fs-1" href="#">
             M<span className="text-danger">MS</span>
           </a>
           <button
@@ -22,19 +22,19 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
-                  className="nav-link active"
+                  className="nav-link active fs-5"
                   aria-current="page"
-                  href="/login">
+                  href="/Signin">
                   Login
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link fs-5" href="#">
                   Student
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
+                <a className="nav-link fs-5" aria-disabled="true">
                   Staff
                 </a>
               </li>

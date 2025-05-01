@@ -13,20 +13,22 @@ const Portal = () => {
           className="w-100 h-100 object-fit-cover position-absolute top-0 start-0"
         />
 
-        <div
-          className="position-absolute top-50 start-10 text-white m-5"
-          // style={{ top: "20%" }}
-          >
-          <h1 className="display-3 fw-bold text-shadow">Welcome Students</h1>
-          <h5 className="mb-4">Your journey starts here.</h5>
+        <div className="position-absolute top-50 start-0 translate-middle-y text-white text-start ms-5">
+          <h1 className="display-3 fw-bold fs-1 text-shadow">
+            Your Journey to Excellence Starts Here - <br /> Welcome to MMS
+          </h1>
+          <h5 className="mb-4">
+            Stay connected, stay informed, and stay ahead.
+          </h5>
           <a href="/login" className="btn btn-primary btn-lg">
-            Login
+            Get Started
           </a>
         </div>
       </div>
 
       <div>
-        <h1 className="text-center">Our School</h1>
+        <h1 className="text-center m-5 fs-1 fw-semibold">Our School</h1>
+
         <div className="d-flex justify-content-end gap-5">
           <div className="card" style={{ width: "18rem" }}>
             <img src="..." className="card-img-top" alt="" />
