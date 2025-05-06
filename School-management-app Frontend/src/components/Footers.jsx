@@ -3,56 +3,40 @@ import React from 'react'
 const Footers = () => {
   return (
     <>
-      <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">About Us</h5>
-              <p class="card-text">
-                The School believes in building a solid foundation for the child
-                and as such, we strive to turn out students with passion for
-                excellence and who have been adequately prepared for tertiary
-                education and life.
-              </p>
+      <footer class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-between">
+
+            <div class="col-md-4 mb-4">
+              <h5>About Us</h5>
+                <p>
+                  The School believes in building a solid foundation for the child,
+                  and as such, we strive to turn out students with passion for
+                  excellence and who have been adequately prepared for tertiary
+                  education and life.
+                </p>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Quick Links</h5>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
+
+            <div class="col-md-4 mb-4">
+              <h5>Quick Links</h5>
+              <a href="#" class="btn btn-outline-light btn-sm mb-2 d-block">Go somewhere</a>
+              <a href="#" class="btn btn-outline-light btn-sm mb-2 d-block">Go somewhere</a>
+              <a href="#" class="btn btn-outline-light btn-sm mb-2 d-block">Go somewhere</a>
+              <a href="#" class="btn btn-outline-light btn-sm mb-2 d-block">Go somewhere</a>
+              <a href="#" class="btn btn-outline-light btn-sm mb-2 d-block">Go somewhere</a>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Contact Us</h5>
-              <p class="card-text">
-                Ogbomoso
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
+
+            <div class="col-md-3 mb-4">
+              <h5>Contact Us</h5>
+              <p>Ogbomoso</p>
+              <a href="#" class="btn btn-outline-light btn-sm">Contact Page</a>
             </div>
+
           </div>
-        </div>
-      </div>
+              <hr class="border-secondary" />
+              <p class="text-center mb-0">&copy; 2025 Your School Name. All rights reserved.</p>
+          </div>
+      </footer>
     </>
   );
 }
